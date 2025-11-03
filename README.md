@@ -16,7 +16,7 @@ Customizable: Easy to modify word lists and grid sizes
 
 Fresh Puzzles: Generate new puzzles with a single keypress
 
-🚀 Quick Start
+#🚀 Quick Start
 Prerequisites
 Python 3.8 or higher
 
@@ -36,6 +36,8 @@ Run the game
 
 bash
 python wordwizard.py
+
+
 🎯 How to Play
 Launch the game to see a randomly generated word search puzzle
 
@@ -66,6 +68,8 @@ Adjust the puzzle dimensions by modifying the size parameter:
 
 python
 word_search = WordSearch(size=15)  # Creates a 15x15 grid
+
+
 📁 Project Structure
 text
 wordwizard/
@@ -76,6 +80,9 @@ wordwizard/
 └── assets/               # Additional resources (optional)
     ├── images/
     └── fonts/
+
+
+
 🎨 Screenshots
 Main Game Interface
 
@@ -91,7 +98,10 @@ WORD WIZARD - Word Search
 |   |   |   |   |   |
 +---+---+---+---+---+
 
-Find these words:
+
+
+
+\Find these words:
 PYTHON ✓
 CODE
 GAME
@@ -112,6 +122,8 @@ Bidirectional Checking: Validates words in both forward and reverse directions
 Real-time Validation: Checks selections upon mouse release
 
 Duplicate Prevention: Prevents finding the same word multiple times
+
+
 
 🤝 Contributing
 We welcome contributions! Here's how you can help:
